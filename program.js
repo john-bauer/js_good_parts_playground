@@ -4,10 +4,6 @@ in this only for the sake of readability. */
 
 // inline comments are safer.
 
-const that = this;
-console.log(that);
-
-
 /*
 ------- RESERVED WORDS ----------
 abstract
@@ -65,3 +61,18 @@ void
 while
 with
 */
+
+
+const that = this;
+console.log(this);
+console.log(that);
+
+console.log('c'+'a'+'t');
+console.log('cat'.toUpperCase());
+
+const test = {
+  hello: "hello",
+  world: "world",
+}
+
+console.log(test.hello + ' ' + test.world);
